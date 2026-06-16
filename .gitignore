@@ -1,0 +1,29 @@
+node_modules/
+.pnpm-store/
+
+# Shopify
+.shopify/
+config.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Build outputs
+dist/
+build/
+
+# Temp
+*.tmp
+.temp/
+
+# Environment
+.env
+.env.local

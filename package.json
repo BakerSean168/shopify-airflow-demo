@@ -1,0 +1,26 @@
+{
+  "name": "shopify-airflow-demo",
+  "version": "1.0.0",
+  "description": "8-hour Shopify learning project - DTC earbuds store",
+  "private": true,
+  "scripts": {
+    "dev": "cd theme && shopify theme dev",
+    "push": "cd theme && shopify theme push",
+    "pull": "cd theme && shopify theme pull",
+    "check": "cd theme && shopify theme check",
+    "share": "cd theme && shopify theme share"
+  },
+  "keywords": [
+    "shopify",
+    "theme",
+    "liquid",
+    "dtc",
+    "ecommerce"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@shopify/cli": "^3.x",
+    "@shopify/theme": "^3.x"
+  }
+}
