@@ -188,6 +188,43 @@ shopify-airflow-demo/
 
 ---
 
+## 🚀 快速开始
+
+### 查看项目（立即可用）
+
+```bash
+# 克隆项目
+git clone https://github.com/BakerSean168/shopify-airflow-demo.git
+cd shopify-airflow-demo
+
+# 查看代码
+code .
+
+# 主要文件：
+# - theme/sections/product-specs.liquid
+# - theme/snippets/trust-badges.liquid
+# - products/*.json
+```
+
+### 运行项目（完整体验）
+
+**需要 Shopify Development Store (免费)**
+
+查看完整运行指南: [HOW_TO_RUN.md](HOW_TO_RUN.md) ⭐
+
+**快速步骤**:
+1. 注册 Shopify Partner 账号（10 分钟）
+2. 创建 Development Store（5 分钟）
+3. 安装 Shopify CLI（3 分钟）
+4. 启动开发服务器（2 分钟）
+5. 录入产品和配置 Sections（15 分钟）
+
+**总计**: ~40 分钟首次设置
+
+**详细说明**: 见 [HOW_TO_RUN.md](HOW_TO_RUN.md)
+
+---
+
 ## 📚 学习目标
 
 通过这个项目，你将学会:
