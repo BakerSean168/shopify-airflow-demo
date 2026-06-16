@@ -1,0 +1,127 @@
+{
+  "id": "airflow-lite",
+  "handle": "airflow-lite",
+  "title": "AirFlow Lite",
+  "vendor": "AirFlow",
+  "product_type": "Wireless Earbuds",
+  "tags": ["commute", "office", "budget-friendly", "entry-level"],
+
+  "variants": [
+    {
+      "title": "Default",
+      "price": "49.00",
+      "sku": "AFL-001",
+      "inventory_quantity": 50,
+      "weight": 42,
+      "weight_unit": "g"
+    }
+  ],
+
+  "seo": {
+    "title": "AirFlow Lite - True Wireless Earbuds | $49",
+    "description": "AirFlow Lite wireless earbuds, $49 high-value choice. 40-hour battery, Bluetooth 5.3 stable connection, IPX4 waterproof, 4.2g lightweight design. Essential for daily commute and office."
+  },
+
+  "content": {
+    "tagline": "Your Daily Audio Companion",
+
+    "description": "AirFlow Lite is a high-value true wireless earbud designed for daily commuting. With 8-hour single-use battery plus 32-hour total battery life from the charging case, you only need to charge once a week. Bluetooth 5.3 provides stable connection, IPX4 waterproof handles daily sweat and light rain. At just 4.2g ultra-light design, long-time wearing is effortless. Entry-level price, all-day music companionship.",
+
+    "selling_points": [
+      "✓ 40-hour total battery - charge once a week",
+      "✓ Bluetooth 5.3 - stable connection, lower latency",
+      "✓ IPX4 waterproof - handles sweat and light rain",
+      "✓ 4.2g featherweight - long-wearing comfort",
+      "✓ High value - $49 for all-day music"
+    ],
+
+    "scenarios": {
+      "commute": {
+        "title": "On Your Commute",
+        "description": "In rush-hour subway, AirFlow Lite isolates noise, immersing you in music or podcasts. Single 8-hour battery is enough for round-trip commute. Lightweight design keeps ears comfortable after long wearing."
+      },
+      "office": {
+        "title": "Office Environment",
+        "description": "When focusing on work, music helps you enter flow state. Bluetooth 5.3 ensures stable connection with computer, switching to phone during meetings without lag. Compact charging case sits on desk for grab-and-go."
+      },
+      "exercise": {
+        "title": "Light Exercise",
+        "description": "Morning runs or gym workouts, IPX4 waterproof means no worry about sweat erosion. Secure fit ensures no dropping during intense exercise. Lightweight design adds no burden, focus on enjoying movement."
+      }
+    },
+
+    "specifications": {
+      "battery_earbuds": "8 hours",
+      "battery_case": "32 hours (total ~40 hours)",
+      "bluetooth": "5.3",
+      "waterproof": "IPX4",
+      "weight": "4.2g per earbud",
+      "codec": ["SBC", "AAC"],
+      "anc": false,
+      "charging": "USB-C",
+      "driver": "28mm dynamic driver",
+      "controls": "Touch controls"
+    },
+
+    "faq": [
+      {
+        "question": "Is the battery really 40 hours?",
+        "answer": "Yes. Earbuds single-use 8 hours, charging case provides 3 full charges (24 hours), totaling about 32-40 hours depending on volume."
+      },
+      {
+        "question": "How often do I need to charge?",
+        "answer": "If using 2 hours daily, approximately once a week."
+      },
+      {
+        "question": "Which devices are supported?",
+        "answer": "Supports all Bluetooth-enabled devices including iPhone, Android phones, Windows/Mac computers, iPad, etc."
+      },
+      {
+        "question": "Is the connection stable? Will it cut out?",
+        "answer": "Uses Bluetooth 5.3 technology, stable connection within 10m range. Daily use (phone in pocket or on desk) rarely disconnects."
+      },
+      {
+        "question": "How's the sound quality? What music types suit it?",
+        "answer": "Balanced sound, suitable for pop, podcasts, audiobooks. Supports AAC codec, better experience for iPhone users. Bass not heavy, but clarity sufficient for daily use."
+      },
+      {
+        "question": "How does it compare to $100+ earbuds?",
+        "answer": "Main differences are no active noise cancellation (ANC) and advanced audio codecs (like LDAC). But for daily commute and office, sound quality and functionality are completely adequate."
+      },
+      {
+        "question": "What waterproof level is IPX4? Can I wear while swimming?",
+        "answer": "IPX4 protects against splashes and sweat, suitable for running and gym use. But cannot be submerged, please don't wear while swimming or showering."
+      },
+      {
+        "question": "Are the earbuds durable? Will they break quickly?",
+        "answer": "Normal use lifespan 2-3 years. Both charging case and earbuds passed drop tests. Battery maintains 80% capacity after 500 charge cycles."
+      },
+      {
+        "question": "Is there a warranty?",
+        "answer": "Provides 1-year official warranty. Non-human damage can be repaired or replaced for free."
+      },
+      {
+        "question": "If unsatisfied, can I return?",
+        "answer": "Supports 30-day no-reason returns. As long as product is intact, full refund available."
+      }
+    ]
+  },
+
+  "images": [
+    {
+      "alt": "AirFlow Lite - Front View",
+      "position": 1,
+      "note": "White background product shot showing earbuds and case"
+    },
+    {
+      "alt": "AirFlow Lite - Case Open",
+      "position": 2,
+      "note": "Charging case open showing earbuds inside"
+    },
+    {
+      "alt": "AirFlow Lite - In Use",
+      "position": 3,
+      "note": "Person wearing earbuds on commute"
+    }
+  ]
+}

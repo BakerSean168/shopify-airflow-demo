@@ -1,0 +1,134 @@
+{
+  "id": "airflow-pro",
+  "handle": "airflow-pro",
+  "title": "AirFlow Pro",
+  "vendor": "AirFlow",
+  "product_type": "Wireless Earbuds",
+  "tags": ["anc", "noise-cancelling", "premium", "multi-device", "professional"],
+
+  "variants": [
+    {
+      "title": "Default",
+      "price": "129.00",
+      "sku": "AFP-001",
+      "inventory_quantity": 50,
+      "weight": 51,
+      "weight_unit": "g"
+    }
+  ],
+
+  "seo": {
+    "title": "AirFlow Pro - ANC Wireless Earbuds | $129",
+    "description": "AirFlow Pro true wireless earbuds with ANC active noise cancellation, -35dB noise reduction, LDAC hi-res audio, 9-hour battery, multi-device switching. Professional audio experience."
+  },
+
+  "content": {
+    "tagline": "Professional Sound, Pure Focus",
+
+    "description": "AirFlow Pro is a versatile flagship true wireless earbud for those with sound quality requirements. Active Noise Cancellation (ANC) effectively isolates ambient noise at -35dB, transparency mode allows conversation without removal. 9-hour battery (ANC off) / 7-hour (ANC on). Supports LDAC high-resolution audio codec. Multi-point connection simultaneously pairs two devices (phone + computer). IPX5 waterproof, stronger than IPX4. Supports wireless Qi charging.",
+
+    "selling_points": [
+      "✓ ANC active noise cancellation - -35dB deep noise reduction",
+      "✓ Transparency mode - hear surroundings without removing",
+      "✓ LDAC hi-res audio - lossless sound quality experience",
+      "✓ Multi-device switching - seamless phone and computer switching",
+      "✓ IPX5 waterproof - stronger protection level"
+    ],
+
+    "scenarios": {
+      "noisy_environment": {
+        "title": "Noisy Environment Noise Cancellation",
+        "description": "On airplane or in café, ANC active noise cancellation creates a quiet space. -35dB noise reduction depth effectively blocks engine roar and crowd noise. Transparency mode lets you quickly communicate with flight attendants or baristas without removing earbuds."
+      },
+      "multi_device": {
+        "title": "Multi-Device Office",
+        "description": "Multi-point connection simultaneously connects to phone and computer. Music from computer, calls from phone, automatic seamless switching. No need to manually reconnect devices, dramatically improving work efficiency."
+      },
+      "audiophile": {
+        "title": "High Sound Quality Enjoyment",
+        "description": "For music lovers, LDAC codec transmits lossless audio at 3x Bluetooth bandwidth. Hear details in every note. Whether classical, jazz or electronic music, all faithfully reproduced."
+      }
+    },
+
+    "specifications": {
+      "battery_earbuds": "9 hours (ANC off), 7 hours (ANC on)",
+      "battery_case": "28 hours total",
+      "bluetooth": "5.3",
+      "waterproof": "IPX5",
+      "weight": "5.1g per earbud",
+      "codec": ["SBC", "AAC", "LDAC"],
+      "anc": true,
+      "anc_depth": "-35dB",
+      "transparency_mode": true,
+      "multipoint": true,
+      "charging": "USB-C, Wireless Qi",
+      "driver": "40mm dynamic driver"
+    },
+
+    "faq": [
+      {
+        "question": "How effective is ANC noise cancellation?",
+        "answer": "-35dB noise reduction depth effectively blocks constant low-frequency noise like airplane engines, air conditioning, traffic. Human voices can still be heard but significantly weakened."
+      },
+      {
+        "question": "Does ANC affect sound quality?",
+        "answer": "Minimal impact. Modern ANC technology uses dedicated chips for noise cancellation processing without sacrificing audio quality. Many find sound clearer with ANC on due to reduced external interference."
+      },
+      {
+        "question": "What's transparency mode for?",
+        "answer": "Lets you hear surroundings without removing earbuds. Useful when crossing streets, talking to people, or ordering at a café. One tap to switch between ANC and transparency."
+      },
+      {
+        "question": "What's LDAC? Does it really improve sound quality?",
+        "answer": "LDAC is Sony's high-resolution audio codec, transmitting at 990kbps, 3x standard Bluetooth. Compatible with Android 8.0+ devices for near-lossless sound quality. iPhone doesn't support LDAC but AAC is also very good."
+      },
+      {
+        "question": "How does multi-device work? Do I need to manually switch?",
+        "answer": "Multi-point connection lets two devices connect simultaneously. When phone call comes in while listening to computer music, automatically switches to phone. After call, returns to computer. No manual switching needed."
+      },
+      {
+        "question": "Can I use just one device if I don't need multi-device?",
+        "answer": "Yes. Multi-point is optional. Connect to just one device like regular Bluetooth earbuds."
+      },
+      {
+        "question": "Is battery shorter with ANC on?",
+        "answer": "Yes. ANC on: 7 hours; ANC off: 9 hours. Total battery with case is about 28 hours."
+      },
+      {
+        "question": "Compared to entry-level models, where's the extra $80 value?",
+        "answer": "Main upgrades: ANC noise cancellation (-35dB), transparency mode, LDAC hi-res codec, multi-device connection, IPX5 waterproof, wireless charging. If you need noise cancellation or high sound quality, the $80 is very worthwhile."
+      },
+      {
+        "question": "IPX5 waterproof level? Stronger than IPX4?",
+        "answer": "Yes. IPX5 protects against water jets, handles heavy rain and intense workouts. IPX4 only protects against splashes. Still can't be submerged - don't wear swimming."
+      },
+      {
+        "question": "Warranty and return policy?",
+        "answer": "1-year official warranty, 30-day no-reason returns. Same as entry model."
+      }
+    ]
+  },
+
+  "images": [
+    {
+      "alt": "AirFlow Pro - Front View",
+      "position": 1,
+      "note": "White background product shot showing earbuds and case"
+    },
+    {
+      "alt": "AirFlow Pro - Case Open",
+      "position": 2,
+      "note": "Charging case open showing earbuds inside"
+    },
+    {
+      "alt": "AirFlow Pro - ANC Demonstration",
+      "position": 3,
+      "note": "Person wearing earbuds in busy environment"
+    },
+    {
+      "alt": "AirFlow Pro - Multi-Device Setup",
+      "position": 4,
+      "note": "Earbuds connected to phone and laptop simultaneously"
+    }
+  ]
+}

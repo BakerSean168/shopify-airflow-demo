@@ -1,0 +1,109 @@
+<!-- snippets/trust-badges.liquid -->
+{%- comment -%}
+  Trust Badges Snippet
+  Displays trust indicators to build customer confidence
+  Usage: {% render 'trust-badges' %}
+{%- endcomment -%}
+
+<div class="trust-badges">
+  <div class="trust-badges__grid">
+    <div class="trust-badge">
+      <div class="trust-badge__icon">🔄</div>
+      <p class="trust-badge__text">
+        <strong>30-Day Returns</strong>
+        <span>Risk-free guarantee</span>
+      </p>
+    </div>
+
+    <div class="trust-badge">
+      <div class="trust-badge__icon">🚚</div>
+      <p class="trust-badge__text">
+        <strong>Free Shipping</strong>
+        <span>On all orders</span>
+      </p>
+    </div>
+
+    <div class="trust-badge">
+      <div class="trust-badge__icon">✅</div>
+      <p class="trust-badge__text">
+        <strong>1-Year Warranty</strong>
+        <span>Official guarantee</span>
+      </p>
+    </div>
+
+    <div class="trust-badge">
+      <div class="trust-badge__icon">🔒</div>
+      <p class="trust-badge__text">
+        <strong>Secure Payment</strong>
+        <span>SSL encrypted</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .trust-badges {
+    padding: 2rem 0;
+    margin: 2rem 0;
+    border-top: 1px solid rgba(var(--color-foreground), 0.1);
+    border-bottom: 1px solid rgba(var(--color-foreground), 0.1);
+  }
+
+  .trust-badges__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 989px) {
+    .trust-badges__grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .trust-badges__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .trust-badges {
+      padding: 1.5rem 0;
+      margin: 1.5rem 0;
+    }
+  }
+
+  .trust-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  .trust-badge__icon {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 0.25rem;
+  }
+
+  .trust-badge__text {
+    margin: 0;
+    font-size: 0.875rem;
+  }
+
+  .trust-badge__text strong {
+    display: block;
+    font-weight: 600;
+    color: rgb(var(--color-foreground));
+    margin-bottom: 0.125rem;
+  }
+
+  .trust-badge__text span {
+    display: block;
+    font-size: 0.8125rem;
+    color: rgba(var(--color-foreground), 0.7);
+  }
+</style>
