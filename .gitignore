@@ -27,3 +27,8 @@ build/
 # Environment
 .env
 .env.local
+
+# Local Shopify theme exports and store-specific deployment notes.
+# A live storefront snapshot can contain store branding or third-party settings.
+/theme-live/
+/DEPLOY_COMMANDS.md
